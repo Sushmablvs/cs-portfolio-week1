@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+if __name__ == '__main__':
+    # Task1
+    print('Hello, World')
+    # Task2
+    print('hello, Sushma')
+    # Task3
+    ctemp=38.4
+    ftemp=ctemp*(9/5)+32
+    ctemp=38.4
+    ftemp=ctemp*(1.8+32)
+    print("over the summer, temperatures in Yorkshire reached" ,ctemp, "is" , ftemp)
+    # Task4
+    matches=609
+    batted=1014
+    notout=162
+    runs=48426
+    average=runs/(batted-notout)
+    print("boycott's batting average is" , average)
+    # Task5
+    lg=24
+    ns1=113
+    ns2=175
+    ns3=12
+    print("group numbers are", int(ns1/lg), int(ns2/lg), int(ns3/lg))
+    print("Remainder from Groups are", ns1 % lg, ns2 % lg, ns3 % lg)
+    
+
+
